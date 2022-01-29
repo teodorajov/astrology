@@ -8,7 +8,7 @@ export default function SignOverview(props) {
         {props.sign.period}
       </div>
       <p className='mt-4'>
-        {props.sign.desription}
+        {props.sign.description}
       </p>
     </div>
 

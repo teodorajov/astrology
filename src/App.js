@@ -1,9 +1,8 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DailyPage from './components/DailyPage';
 import Navbar from './components/Navbar';
 import OverviewPage from './components/OverviewPage';
-import DailyPage from './components/DailyPage';
 
 function App() {
   return (

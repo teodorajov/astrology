@@ -12,7 +12,7 @@ export default function Navbar() {
             <NavLink to='/' className='nav-link'>Daily horoscope</NavLink>
           </li>
           <li className="nav-item mx-auto">
-            <NavLink to='/overview' className='nav-link'>Zodiac signs overview</NavLink>
+            <NavLink to='/overview' className='nav-link'>Overview</NavLink>
           </li>
         </ul>
       </div>
