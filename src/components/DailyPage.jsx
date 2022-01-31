@@ -26,9 +26,7 @@ export default function DailyPage() {
             }
           </select>
         </div>
-        {daily && (
-          <SignOverview expanded sign={daily} />
-        )}
+        <SignOverview expanded sign={daily} />
       </div>
     </>
   );

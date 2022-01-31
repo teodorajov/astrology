@@ -3,10 +3,20 @@ import { signs } from '../signs';
 import SignOverview from './SignOverview';
 import Navbar from './Navbar';
 export default function OverviewPage() {
-  const [expanded, setExpanded] = useState(signs.reduce((acc, element) => {
-    acc[element.name] = false;
-    return acc;
-  }, {}));
+  const [expanded, setExpanded] = useState({
+    aries: false,
+    taurus: false,
+    gemini: false,
+    cancer: false,
+    leo: false,
+    virgo: false,
+    libra: false,
+    scorpio: false,
+    sagittarius: false,
+    capricorn: false,
+    aquarius: false,
+    pisces: false
+  });
   return (
 
     <>
